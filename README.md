@@ -5,12 +5,20 @@
 
 <pre>
 <code>
-$ git config --global user.name <your_name>
-$ git config --global user.email <your_email>
+$ python3 −m venv fba_frl
+$ source fba_frl/bin/activate
+or 
+$ conda create -n fba_frl -python==3.7
+$ conda activate fba_frl
 
-$ git clone https://github.com/seongmin-Jo/FBA_FRL.git
-$ cd FBA_FRL
-$ git switch -c main
+(fba_frl) $ git config --global user.name <your_name>
+(fba_frl) $ git config --global user.email <your_email>
+
+(fba_frl) $ git clone https://github.com/seongmin-Jo/FBA_FRL.git
+(fba_frl) $ cd FBA_FRL
+(fba_frl) $ pip install matplotlib
+(fba_frl) $ pip install -r requirements.txt
+(fba_frl) $ pip install -e .
 </code>
 </pre>
 
