@@ -1,7 +1,7 @@
-# FBA_Finance_reinforcement_learning
+# FBA_Finance_Reinforcement_Learning
 FRL session of FBA Quant 
 
-'''
+'''python
 echo "# FBA Finance reinforcement learning" >> README.md
 git init
 git add README. md
